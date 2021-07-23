@@ -84,7 +84,6 @@ body.fotos #navegacao a#fotos
 
 #primario {
     width: 270px;
-    background: blue;
     float: left;
     margin:  0 0 20px 195px;
 }
@@ -101,7 +100,6 @@ body.fotos #navegacao a#fotos
 
 #secundario {
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
@@ -159,6 +157,28 @@ input.submit {
     color: #fff;
     background-color: #B10333;
     border: 2px solid #870529;
+}
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #DFDFDF;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #B10333;
+    color: #FFF;
+}
+
+.entrevista h3 {
+    background: #DE003E;
+    color: black;
 }
 
 #container-rodape {
